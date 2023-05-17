@@ -1,0 +1,152 @@
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: feeds/modemfeed/packages/telephony/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1684328942
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: mipsel_24kc
+Installed-Size: 3093
+Filename: atinout_0.9.1_mipsel_24kc.ipk
+Size: 3871
+SHA256sum: 97fbc292d4e93625f14d60416e2f71b7b21c2aacf77e7d9dc06dce69d81ea291
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: luci-app-atinout
+Version: 0.0.3
+Depends: libc, atinout, luci-compat
+Source: feeds/modemfeed/luci/applications/luci-app-atinout
+SourceName: luci-app-atinout
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1684328942
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3326
+Filename: luci-app-atinout_0.0.3_all.ipk
+Size: 4182
+SHA256sum: 802e1e33da0cad598772e0d5774165312dc14fd59630f064f4e60f0b5887df3a
+Description:  Web UI for atinout
+
+Package: luci-app-pingcontrol
+Version: 1.0.0-2
+Depends: libc, pingcontrol
+Source: feeds/modemfeed/luci/applications/luci-app-pingcontrol
+SourceName: luci-app-pingcontrol
+Section: luci
+SourceDateEpoch: 1684328942
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1350
+Filename: luci-app-pingcontrol_1.0.0-2_all.ipk
+Size: 2166
+SHA256sum: f10d6e9c8fd033d2824773f92c8266907c4110e58bb9a35e3e6d3c3e85786195
+Description:  LuCI network interface control
+
+Package: luci-app-smstools3
+Version: 0.0.8-2
+Depends: libc, smstools3, iconv, luci-compat
+Source: feeds/modemfeed/luci/applications/luci-app-smstools3
+SourceName: luci-app-smstools3
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1684328942
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8065
+Filename: luci-app-smstools3_0.0.8-2_all.ipk
+Size: 8968
+SHA256sum: 1d4d7f035d6fca1d1336ac4734b64806ce5b7271ea3869cae0c0e9cd6aed70a4
+Description:  Web UI for smstools3
+
+Package: luci-i18n-atinout-pl
+Version: git-23.137.47342-3552c92
+Depends: libc, luci-app-atinout
+Source: feeds/modemfeed/luci/applications/luci-app-atinout
+SourceName: luci-i18n-atinout-pl
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1684328942
+Architecture: all
+Installed-Size: 828
+Filename: luci-i18n-atinout-pl_git-23.137.47342-3552c92_all.ipk
+Size: 1647
+SHA256sum: 0b15fa65b682dad172123e49cdea5c86595baf8605438c553f0f675cfda83cf3
+Description:  Translation for luci-app-atinout - Polski (Polish)
+
+Package: luci-i18n-atinout-ru
+Version: git-23.137.47342-3552c92
+Depends: libc, luci-app-atinout
+Source: feeds/modemfeed/luci/applications/luci-app-atinout
+SourceName: luci-i18n-atinout-ru
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1684328942
+Architecture: all
+Installed-Size: 837
+Filename: luci-i18n-atinout-ru_git-23.137.47342-3552c92_all.ipk
+Size: 1673
+SHA256sum: 4d34fb3adb3a4c6a48d55afbabdac288bd2435e1fe4e0957a3b5c8b1928f9c45
+Description:  Translation for luci-app-atinout - Русский (Russian)
+
+Package: luci-i18n-pingcontrol-en
+Version: git-23.137.47342-3552c92
+Depends: libc, luci-app-pingcontrol
+Source: feeds/modemfeed/luci/applications/luci-app-pingcontrol
+SourceName: luci-i18n-pingcontrol-en
+Section: luci
+SourceDateEpoch: 1684328942
+Architecture: all
+Installed-Size: 301
+Filename: luci-i18n-pingcontrol-en_git-23.137.47342-3552c92_all.ipk
+Size: 1095
+SHA256sum: 00c6ed22267d4c65ab48a1ae9ac81d2a31072b68c6e9b217ec853f449f59f686
+Description:  Translation for luci-app-pingcontrol - English
+
+Package: luci-i18n-pingcontrol-ru
+Version: git-23.137.47342-3552c92
+Depends: libc, luci-app-pingcontrol
+Source: feeds/modemfeed/luci/applications/luci-app-pingcontrol
+SourceName: luci-i18n-pingcontrol-ru
+Section: luci
+SourceDateEpoch: 1684328942
+Architecture: all
+Installed-Size: 825
+Filename: luci-i18n-pingcontrol-ru_git-23.137.47342-3552c92_all.ipk
+Size: 1646
+SHA256sum: 6a2d1447e25ddf9474ef0f8f5105e9ce3462ca23005c2fa5f5f139b581365c4c
+Description:  Translation for luci-app-pingcontrol - Русский (Russian)
+
+Package: luci-i18n-smstools3-ru
+Version: git-23.137.47342-3552c92
+Depends: libc, luci-app-smstools3
+Source: feeds/modemfeed/luci/applications/luci-app-smstools3
+SourceName: luci-i18n-smstools3-ru
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1684328942
+Architecture: all
+Installed-Size: 2160
+Filename: luci-i18n-smstools3-ru_git-23.137.47342-3552c92_all.ipk
+Size: 2965
+SHA256sum: 68c9da1b1595ab51289b75f9b74023fc217e9b7468927727551894acbf604cdb
+Description:  Translation for luci-app-smstools3 - Русский (Russian)
+
+Package: pingcontrol
+Version: 1-1
+Depends: libc
+Source: feeds/modemfeed/packages/net/pingcontrol
+SourceName: pingcontrol
+Section: utils
+SourceDateEpoch: 1684328942
+Architecture: all
+Installed-Size: 1562
+Filename: pingcontrol_1-1_all.ipk
+Size: 2297
+SHA256sum: c84b94d31d38a0838559cddee0a35534391a90382d77092534fd50f6d753446f
+Description:  This package contains a utility for managing the interface using ping requests.
+
